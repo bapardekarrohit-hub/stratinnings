@@ -1,0 +1,32 @@
+{
+  "name": "stratinngs-app",
+  "version": "1.0.0",
+  "description": "Stratinngs web app with simulation, strategy, pro learning, AI bot, and tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "sports",
+    "simulation",
+    "strategy",
+    "ai-coach",
+    "tracker"
+  ],
+  "author": "Rohit Bapardekar",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
